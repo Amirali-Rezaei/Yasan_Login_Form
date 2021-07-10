@@ -1,0 +1,180 @@
+@font-face {
+  font-family: "loginForm";
+  src: url("../Fonts/Vazir-Regular-FD-WOL.eot") format("eot"),
+    url("../Fonts/Vazir-Regular-FD-WOL.ttf") format("truetype"),
+    url("../Fonts/Vazir-Regular-FD-WOL.woff") format("woff"),
+    url("../Fonts/Vazir-Regular-FD-WOL.woff2") format("woff2");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "loginForm", "Calibri",monospace;
+}
+
+body {
+  background-image: url("https://yasnet.yasanacademy.ir/pluginfile.php/1/theme_moove/loginbgimg/1624194643/279547.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.content {
+  padding: 60px 15px;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.container img {
+  margin-bottom: 30px;
+}
+
+.box {
+  width: 950px;
+  height: 350px;
+  margin-bottom: 125px;
+}
+
+.box .right {
+  width: 60%;
+  float: right;
+  height: 100%;
+  background-color: #156ab5;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.box .right .content h1 {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.box .right .content h1::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #181a1b;
+  right: 16rem;
+}
+
+.box .right .content .info {
+  margin: 10px 0;
+}
+
+.box .right .content .info svg {
+  margin-left: 1px;
+}
+
+.box .right .content button {
+  width: 149px;
+  height: 34.5px;
+  border: none;
+  outline: none;
+  color: rgb(209, 205, 199);
+  background-color: #363f48;
+  font-size: 16px;
+}
+
+.box .left {
+  color: #fff;
+  float: left;
+  width: 40%;
+  height: 100%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: #181a1b;
+}
+
+.left .content {
+  padding: 20px 15px;
+}
+
+.left p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.left .userName, .password{
+    height: 50px;
+    border: 1px solid rgba(140, 130, 115, 0.15);
+}
+
+.left .password{
+    border-top: none;
+}
+
+.left input[type="text"] {
+  padding: 0 0.75rem;
+  width: 80%;
+  background: none;
+  outline: none;
+  color: rgb(104, 104, 104);
+  height: 100%;
+  border: none;
+  font-size: 16px;
+  transition: all ease .3s;
+}
+
+.left input[type="text"]:focus{
+    color: #fff;
+}
+
+.left span{
+    height: 100%;
+    display: inline-block;
+    background-color: #222526;
+    width: 40px;
+    text-align: center;
+}
+
+.left span svg{
+    margin-top: 15px;
+}
+
+.rememberMe{
+    text-align: right;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.rememberMe input{
+    width: 15px;
+    height: 15px;
+}
+
+.enterBtn{
+    width: 354px;
+    height: 40px;
+    color: rgb(232, 230, 227);
+    background-color: rgb(12, 89, 158);
+    border: 1px solid rgb(14, 100, 178);
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.aContainer{
+    margin-top: 5px;
+}
+
+.left a{
+    text-decoration: none;
+    font-size: .9375rem;
+    color: rgb(132, 196, 245);
+    text-decoration-color: currentColor;
+    transition: all ease .3s;
+}
+
+.left a:hover{
+    text-decoration: underline;
+}
